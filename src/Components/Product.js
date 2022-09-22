@@ -32,7 +32,6 @@ export default function Product() {
 			<div className="card rounded " style={{ width: 18 + "rem" }}>
 				<img src={product.ProductImage} className="card-img-top" alt="..." />
 				<div className="card-body p-2 ">
-					<h5 className="card-title">ID : {product.id}</h5><hr />
 					<h5 className="card-title">Name : {product.ProductName}</h5><hr />
 					<h4 className="card-title">ProductCategory :{product.ProductCategory}</h4>
 					<hr />
